@@ -3,6 +3,4 @@
 import /init.sprout_common.rc
 
 on init
-    # Support legacy paths
-    symlink /sdcard /mnt/sdcard
     symlink /sdcard /storage/sdcard0
